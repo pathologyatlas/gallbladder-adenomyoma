@@ -1,32 +1,14 @@
-# template
+# gallbladder-adenomyoma
 
 
 
-**template for pathology atlas repositories**
-
-
-
-
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+**gallbladder-adenomyoma for pathology atlas repositories**
 
 
 
 
-> do not forget to activate github pages for the new repository
 
-
-
-
-```zsh
-
-vips dzsave HE.svs HE
-
-```
-
-
-
-
-```{r language template, echo=FALSE, include=TRUE}
+```{r language gallbladder-adenomyoma, echo=FALSE, include=TRUE}
 
 source("./R/language.R")
 
@@ -37,7 +19,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## Safra Kesesi Adenomyom
 
 ```
 
@@ -46,7 +28,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## Gallbladder Adenomyoma
 
 ```
 
@@ -55,14 +37,14 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**Safra Kesesi Adenomyom**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html](https://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -71,14 +53,14 @@ Mikroskopik görüntüleri inceleyin:
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**Gallbladder Adenomyoma**
 
 
-[https://pathologyatlas.github.io/template/HE.html](https://pathologyatlas.github.io/template/HE.html)
+[https://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html](https://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://pathologyatlas.github.io/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
 
 ```
 
