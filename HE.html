@@ -5,6 +5,11 @@
     var viewer = OpenSeadragon({
         id: 'openseadragon1',
         prefixUrl: 'https://pathologyatlas.github.io/openseadragon/images/',
+        showHomeControl : false, // optional
+ showRotationControl : true,  // optional
+ showNavigator : true,  // optional
+ showFlipControl: true,  // optional
+ navigatorBackground: 'rgb(240, 240, 240)',  // optional
         tileSources: {
             Image: {
                 Url: './HE_files/', // name of image folder
